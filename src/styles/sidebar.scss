@@ -1,0 +1,183 @@
+@import "mixin";
+@import "dashboard";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #fff7e8;
+}
+
+.sidebar {
+  width: 250px;
+  height: 920px;
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s;
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc; 
+  padding: 5px; 
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  }
+
+  input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+
+  svg {
+    margin-right: 10px;
+    color: #666;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #efefef84;
+  padding: 10px;
+  border-radius: 30px;
+}
+ul li:hover {
+  box-shadow: 0 0 10px rgba(255, 171, 14, 0.882);
+}
+
+ul li svg {
+  margin-right: 15px; 
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  padding-top: 80px;
+  background-color: #fff; 
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(139, 137, 137);
+    border-radius: 50%; /* Use 50% for a perfect circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    position: absolute;
+    bottom: 0;
+    margin-right: 180px;
+    top: 280px;
+    
+
+    svg {
+      font-size: 40px;
+      color: #fffbfb;
+       position:absolute; 
+  
+    
+    }
+  }
+
+  .username {
+    color: #333;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #bcbbbb40;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 14px;
+    margin-top: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    top: 134px;
+    right: 10px;
+ 
+  }
+.username:hover{
+  box-shadow: 0 0 10px rgb(255, 171, 14);
+}
+}
+
+.admin {
+   background-color: orange;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 8px;
+  padding-left: 9px;
+  padding-right: 9px;
+  text-align: center;
+  margin-bottom: 7px;
+  position: relative;
+  top: 240px;
+  right: 16px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+
+.setting {
+  color: black;
+padding-bottom: 5px;
+  cursor: pointer;
+}
+.setting:hover {
+  color: rgb(60, 60, 60);
+  padding-bottom: 20px;
+}
+
+.logout{
+  cursor: pointer;
+  color: red;
+  box-shadow: 0 2px 4px rgba(158, 158, 159, 0.311);
+  border-radius: 10px;
+  position: absolute;
+  top: 900px;
+ }
+  .logout:hover{
+    box-shadow: 0 2px 4px rgb(255, 171, 14);
+  }

@@ -1,0 +1,558 @@
+.container {
+  display: flex;
+
+  flex: 1;
+}
+
+.dashboard {
+  overflow-y: hidden;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #fff7e8;
+}
+
+.revenue {
+  width: 350px;
+  height: 150px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 15px;
+  position: relative;
+  top: 0px;
+  right: 10px;
+  font-size: 22px;
+}
+
+.revenue h3 {
+  font-size: 22px;
+  margin-bottom: 1px;
+}
+
+.number-section {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+}
+
+.amount {
+  font-weight: bold;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: auto;
+  color: rgb(160, 8, 8);
+  cursor: pointer;
+}
+
+.more .icon {
+  margin-left: 5px;
+  color: rgb(160, 8, 8);
+}
+
+.LostDeals {
+  flex: 1;
+  width: 380px;
+  height: 150px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 15px;
+  position: absolute;
+  left: 700px;
+  top: 10px;
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .number-section {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .amount {
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .more {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .more .icon {
+    margin-left: 5px;
+  }
+}
+
+.quarterGoal {
+  width: 300px;
+  height: 160px;
+  position: absolute;
+  top: 10px;
+  left: 1130px;
+  background-color: #fff;
+  padding: 11px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 15px;
+  font-size: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url("../assets/Ellipse\ .png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130px;
+  flex: auto;
+
+  h3 {
+    font-size: 20px;
+    padding-left: 90px;
+  }
+
+  .more {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 90px;
+    padding-left: 12px;
+  }
+
+  .more .icon {
+    margin-left: 5px;
+  }
+}
+
+.revenue {
+  font: Inter;
+}
+.Customers {
+  background-color: #fff;
+  width: 550px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 1 1;
+  padding: 1px;
+  margin: 3px;
+  height: 520px;
+}
+.heading {
+  font-size: 18px;
+  padding-left: 10px;
+  justify-content: space-between;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.Customers h3 {
+  color: #333;
+  text-align: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 13px;
+}
+
+.profile-circle {
+  background-color: #58525228;
+  border-radius: 40%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 235px;
+  box-shadow: 0 2px 4px rgba(117, 117, 117, 7);
+}
+
+.user-details h4 {
+  margin: 0;
+  color: #1a1a1a;
+  width: 150px;
+  position: relative;
+  right: 120px;
+  bottom: 20px;
+}
+
+.user-details p {
+  margin: 0;
+  color: #000000c9;
+  position: relative;
+  right: 130px;
+  bottom: 20px;
+}
+.Customers li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px #ccc;
+  transition: background-color 0.3s;
+}
+
+.Customers li:hover {
+  background-color: rgba(255, 247, 232, 1);
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.icons {
+  margin-left: auto;
+  align-items: center;
+  height: 1px;
+  display: flex;
+  gap: 11px;
+  position: relative;
+  bottom: 30px;
+}
+.left-bottom-icon {
+  position: absolute;
+  bottom: 20px;
+  position: absolute;
+  padding-left: 20px;
+}
+.nearest {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  font-size: 15px;
+  margin-left: 400px;
+  padding: 5px;
+  position: relative;
+  bottom: 40px;
+  cursor: pointer;
+}
+
+
+.growth{
+  overflow-y: auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 295px;
+  width: 590px;
+  background-color: #fff;
+  position: relative;
+  bottom: 525px;
+  left: 570px;
+  border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+border-radius: 20px 20px 1 1;
+font-size: 25px;
+}
+
+.Head{
+  margin: 20px;
+  position: relative;
+}
+
+.chart{
+position: absolute;
+left: 50px;
+}
+
+
+
+.Month,
+.Year,
+.Buyer {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+  padding: 3px;
+  position: inherit;
+  color: #333333af;
+  font-size: 20px;
+  text-align: left;
+  display: inline-block;
+  overflow-y: hidden;
+  bottom: 10px;
+}
+.h-Month,
+.h-year,
+.h-buyer {
+  background-color: #ffb237db; /* Set your desired background color */
+  color: #fff; /* Set text color to ensure visibility */
+  border-radius: 10px;
+  margin-bottom: 1.5dvh; /* Adjust margin as needed */
+  display: inline-block;
+  height: 60px;
+  width: 100px;
+  position: absolute;
+  bottom: 130px;
+  padding-left: 2px;
+}
+
+.Month {
+  height: 200px;
+  width: 180px;
+  background-color: #fff;
+  position: absolute;
+  // bottom: 100px;
+  right: 490px;
+  left: 880px;
+  flex: 1;
+}
+.Month .November {
+  font-size: 27px;
+  color: #634f3d;
+  font-weight: bold;
+}
+
+.year {
+  font-size: 19px;
+  color: rgb(255, 167, 5);
+
+  font-weight: bold;
+}
+.Year {
+  height: 200px;
+  width: 180px;
+  background-color: #fff;
+  position: absolute;
+  // bottom: 1px;
+  right: 490px;
+  left: 1080px;
+}
+.yaer {
+  font-size: 30px;
+  font-weight: bold;
+  color: #634f3d;
+}
+.text {
+  font-size: 15px;
+}
+
+.Buyer {
+  height: 200px;
+  width: 180px;
+  background-color: #fff;
+  position: absolute;
+  // bottom: 0px;
+  right: 490px;
+  left: 1280px;
+}
+.avatar-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 20px;
+  color: #1a1a1ad2;
+}
+
+.avatar {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.username {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  cursor: pointer;
+}
+.text2 {
+  font-size: 13px;
+  position: relative;
+  top: 10px;
+}
+
+.chat,
+.TopStates,
+.NewDeals {
+  position: inherit;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  
+}
+.chat {
+  height: 230px;
+  width: 350px;
+  background-color: #fff;
+  position: relative;
+  padding-left: 13px;
+  color: #191818;
+  font-size: 30px;
+  left: 5px;
+  bottom: 320px;
+}
+
+.Chats {
+  font-size: 14px;
+  color: #605c58df;
+  padding-left: 16px;
+}
+.TopStates {
+  height: 200px;
+  width: 350px;
+  background-color: #fff;
+  position: relative;
+  bottom: 610px;
+  padding-left: 30px;
+  margin-left: 385px;
+}
+
+.NewDeals {
+  height: 230px;
+  width: 350px;
+  background-color: #fff;
+  position: relative;
+  padding-left: 30px;
+  bottom: 860px;
+  margin-left: 780px;
+
+}
+
+.profile-icons {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  bottom: 420px;
+  gap: 15px;
+  margin-left: 150px;
+}
+
+.profile-icon {
+  background-color: #d3803ce0; /* Example background color */
+  padding: 10px;
+  border-radius: 50%;
+
+  :hover {
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+    transition: background-color 0.1s ease-in-out;
+    background-color: #ff9900;
+  }
+}
+
+.profile-icon svg {
+  color: #fff;
+}
+
+.TopStates {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.TopStates .linear-gradients {
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top: 15px;
+  font-size: 15px;
+}
+.TopStates .linear-gradients2 {
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top: 15px;
+}
+
+.TopStates .linear-gradients3 {
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top: 15px;
+}
+
+.TopStates .linear-gradients4 {
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #ff8a00, #da1b60);
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top: 15px;
+}
+
+.TopStates h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.TopStates .gradients {
+  display: flex;
+  justify-content: space-between;
+  font-size: 4px;
+}
+
+.NewDeals .Head {
+  font-size: 23px;
+  padding: 1px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+
+.newdeals-container {
+  display: flex;
+  gap: 10px;
+}
+
+.deal-item {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #ffd700; /* Light Orange color */
+  padding: 6px;
+  border-radius: 20px;
+  overflow: Overlay;
+  background-color: rgba(255, 247, 232, 1);
+}
+
+.icon {
+  color: #ffa600; 
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.text {
+  color: #342406d1; 
+}
